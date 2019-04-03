@@ -1,0 +1,18 @@
+//Trozo de codigo que tu puedes reutilizar
+
+@mixin button($breakpoint) {
+    display: inline-block;
+    text-decoration: none;
+    padding: .5em 1em;
+
+    &:hover{
+        background:red;
+    }
+    @media screen and (min-width:$breakpoint) {
+        background: green;
+    }
+}
+
+.button{
+    @include button(100px);
+}

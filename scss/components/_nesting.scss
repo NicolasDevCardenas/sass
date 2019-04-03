@@ -1,0 +1,14 @@
+//Clases anidadas para mayor organización
+
+.menu{
+    margin: 0;
+    
+    //anidar propiedades
+    grid-template: {
+        columns: 20px 20px;
+        rows:auto;
+    }
+    .link{
+        text-decoration: none;
+    }
+}

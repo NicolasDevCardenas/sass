@@ -1,0 +1,14 @@
+$number: 1;
+$size: 20px;
+$sizeEm: 2em;
+$string: 'texto';
+$string2: none;
+$color:red;
+$list: primary, secondary, tertiary;
+$boolean : true;
+$map:();
+
+body{
+    //Forma de observar la consola
+    @debug type-of($number );//Type of devuelve el tipo de dato de la variable
+}

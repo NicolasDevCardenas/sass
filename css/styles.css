@@ -1,0 +1,156 @@
+.menu {
+  margin: 0;
+  grid-template-columns: 20px 20px;
+  grid-template-rows: auto; }
+  .menu .link {
+    text-decoration: none; }
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: .5em 1em; }
+  .button:hover {
+    background: red; }
+  @media screen and (min-width: 100px) {
+    .button {
+      background: green; } }
+
+.col-5 {
+  columns: 5%; }
+
+.col-10 {
+  columns: 10%; }
+
+.col-15 {
+  columns: 15%; }
+
+.col-20 {
+  columns: 20%; }
+
+.col-25 {
+  columns: 25%; }
+
+.col-30 {
+  columns: 30%; }
+
+.col-35 {
+  columns: 35%; }
+
+.col-40 {
+  columns: 40%; }
+
+.col-45 {
+  columns: 45%; }
+
+.col-50 {
+  columns: 50%; }
+
+.col-55 {
+  columns: 55%; }
+
+.col-60 {
+  columns: 60%; }
+
+.col-65 {
+  columns: 65%; }
+
+.col-70 {
+  columns: 70%; }
+
+.col-75 {
+  columns: 75%; }
+
+.col-80 {
+  columns: 80%; }
+
+.col-85 {
+  columns: 85%; }
+
+.col-90 {
+  columns: 90%; }
+
+.col-95 {
+  columns: 95%; }
+
+@media screen and (min-width: 640px) {
+  .col-m-5 {
+    columns: 5%; }
+  .col-m-10 {
+    columns: 10%; }
+  .col-m-15 {
+    columns: 15%; }
+  .col-m-20 {
+    columns: 20%; }
+  .col-m-25 {
+    columns: 25%; }
+  .col-m-30 {
+    columns: 30%; }
+  .col-m-35 {
+    columns: 35%; }
+  .col-m-40 {
+    columns: 40%; }
+  .col-m-45 {
+    columns: 45%; }
+  .col-m-50 {
+    columns: 50%; }
+  .col-m-55 {
+    columns: 55%; }
+  .col-m-60 {
+    columns: 60%; }
+  .col-m-65 {
+    columns: 65%; }
+  .col-m-70 {
+    columns: 70%; }
+  .col-m-75 {
+    columns: 75%; }
+  .col-m-80 {
+    columns: 80%; }
+  .col-m-85 {
+    columns: 85%; }
+  .col-m-90 {
+    columns: 90%; }
+  .col-m-95 {
+    columns: 95%; } }
+
+@media screen and (min-width: 1040px) {
+  .col-l-5 {
+    columns: 5%; }
+  .col-l-10 {
+    columns: 10%; }
+  .col-l-15 {
+    columns: 15%; }
+  .col-l-20 {
+    columns: 20%; }
+  .col-l-25 {
+    columns: 25%; }
+  .col-l-30 {
+    columns: 30%; }
+  .col-l-35 {
+    columns: 35%; }
+  .col-l-40 {
+    columns: 40%; }
+  .col-l-45 {
+    columns: 45%; }
+  .col-l-50 {
+    columns: 50%; }
+  .col-l-55 {
+    columns: 55%; }
+  .col-l-60 {
+    columns: 60%; }
+  .col-l-65 {
+    columns: 65%; }
+  .col-l-70 {
+    columns: 70%; }
+  .col-l-75 {
+    columns: 75%; }
+  .col-l-80 {
+    columns: 80%; }
+  .col-l-85 {
+    columns: 85%; }
+  .col-l-90 {
+    columns: 90%; }
+  .col-l-95 {
+    columns: 95%; } }
+
+body {
+  color: red; }

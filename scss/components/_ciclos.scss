@@ -1,0 +1,30 @@
+//Funciona com olos for de cualquier otro lenguaje de programación
+
+$bp:(
+    m:640px,
+    l:1040px
+);
+@for $i from 1 to 20 {
+    //Concatenar variables a nombres de clases
+    .col-#{$i * 5}{
+        columns: $i * 5%;
+    }
+}
+@media screen and ( min-width : map-get($bp, m)){
+    @for $i from 1 to 20 {
+        //Concatenar variables a nombres de clases
+        .col-m-#{$i * 5}{
+            columns: $i * 5%;
+        }
+    }
+
+}
+@media screen and ( min-width : map-get($bp, l)){
+    @for $i from 1 to 20 {
+        //Concatenar variables a nombres de clases
+        .col-l-#{$i * 5}{
+            columns: $i * 5%;
+        }
+    }
+
+}
