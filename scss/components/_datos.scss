@@ -10,5 +10,5 @@ $map:();
 
 body{
     //Forma de observar la consola
-    @debug type-of($number );//Type of devuelve el tipo de dato de la variable
+    @debug type-of($boolean );//Type of devuelve el tipo de dato de la variable
 }

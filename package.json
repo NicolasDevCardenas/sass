@@ -1,0 +1,29 @@
+{
+  "name": "sass-gulp",
+  "version": "1.0.0",
+  "description": "This is an app create like an example to practice sass and gulp",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasDevCardenas/sass.git"
+  },
+  "author": "@NicolasDevCardenas",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/NicolasDevCardenas/sass/issues"
+  },
+  "homepage": "https://github.com/NicolasDevCardenas/sass#readme",
+  "dependencies": {
+    "gulp": "^4.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^4.11.0",
+    "pump": "^3.0.0"
+  }
+}
